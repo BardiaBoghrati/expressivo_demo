@@ -6,15 +6,15 @@ For overview of how to use this system consult <a href="https://ocw.mit.edu/ans7
 
 Example session:
 <pre>
->x*x                 "entering an expression"
-x*x                  "expression becomes <b>current expression</b> and is echoed back"
->!simplify x=2 y=0   "commands begin with !. Note <i>!simplify</i> does not change the current expression"
-4.0                  "here all the variables in expression namely x are assigned so <i>!simplify</i> evaluates 
-                      the expression to single number"
->!d/dx               "differentiate with respect to x. Differentiation changes the <b>current expression</b>"
-x*1 + x*1            "here you should expect any expression equivalent to the one presented"
+>x*x                 "Entering an expression"
+x*x                  "Expression becomes <b>current expression</b> and is echoed back"
+>!simplify x=2 y=0   "Commands begin with !. Note <i>!simplify</i> does not change the current expression"
+4.0                  "Here all the variables in expression namely x are assigned so <i>!simplify</i> evaluates 
+                      the expression to a single number"
+>!d/dx               "Differentiate with respect to x. Differentiation changes the <b>current expression</b>"
+x*1 + x*1            "Here you should expect any expression equivalent to the one presented"
 >!simplify
-x + x                "here the echoed expression can be the one shown 'x+x' or any equivalent expression, maybe '2*x'" 
+x + x                "Here the echoed expression can be the one shown 'x+x' or any equivalent expression, maybe '2*x'" 
 >!simplify x=0.5
 1.0
 </pre>
