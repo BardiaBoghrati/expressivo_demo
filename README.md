@@ -6,7 +6,11 @@ For overview of how to use this system consult <a href="https://ocw.mit.edu/ans7
 
 Note that this is a system of floating-point expressions and numbers are represented by their closest floating-point value.
 
-Example session: (YouTube demo can be found <a href="https://youtu.be/ZEnwlS2_Dss">here</a>)
+Project source code can be found <a href="https://github.com/BardiaBoghrati/Expressivo">here</a>.
+
+YouTube demo can be found <a href="https://youtu.be/ZEnwlS2_Dss">here</a>.
+
+Example session:
 <pre>
 >x*x                                  "Entering an expression"
 x*x                                   "Expression becomes <b>current expression</b> and is echoed back"
